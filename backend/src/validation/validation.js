@@ -9,7 +9,7 @@ module.exports = {
         .email(),
       whatsapp: Joi.string()
         .required()
-        .min(10),
+        .min(8),
       city: Joi.string().required(),
       uf: Joi.string()
         .required()
