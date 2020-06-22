@@ -7,8 +7,6 @@
   <img src="https://img.shields.io/badge/made_by-Ryann-blue?style=for-the-badge" alt="https://github.com/Ryannnkl">
 </h2>
 
-# Be-The-Hero
-
 <p align="center">
   <img src="./assets/thumbnail.png" width="900"/>
 </p>
