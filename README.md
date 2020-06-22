@@ -16,7 +16,7 @@
 > Aplicação, que busca ajuar ONGS de maneira financeira,
 > expondo elas aos usuarios que tenham interesse em ajudar
 
-### Feramentas :hammer:
+### Ferramentas :hammer:
 
 - **Backend**
 
