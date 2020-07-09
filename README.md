@@ -3,8 +3,8 @@
   <br/>
   <b>Be The Hero!</b>
   <br/>
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Ryannnkl/Be-The-Hero?logo=github&style=for-the-badge">
-  <img src="https://img.shields.io/badge/made_by-Ryann-blue?style=for-the-badge" alt="https://github.com/Ryannnkl">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Ryannnkl/Be-The-Hero?logo=github&style=for-the-badge&color=e02041">
+  <img src="https://img.shields.io/badge/made_by-Ryann-e02041?style=for-the-badge" alt="https://github.com/Ryannnkl">
 </h2>
 
 <p align="center">
@@ -38,6 +38,46 @@
 ### Testes-Automatizados :ballot_box_with_check:
 
 - [Jest](https://jestjs.io/)
+
+### Como rodar?
+
+```bash
+git clone https://github.com/Ryannnkl/Be-the-hero.git
+
+cd Be-the-hero
+```
+
+#### <code>Backend</code>
+
+```bash
+cd backend
+
+npm install
+
+npm run dev
+```
+
+#### <code>Frontend</code>
+
+```bash
+cd frontend
+
+npm install
+
+yarn start
+```
+
+#### <code>Mobile</code>
+
+```bash
+cd mobile
+
+npm install
+
+expo start
+```
+
+## #Projeto feito na Semana-OmniStack 11 [Rockeseat](https://rocketseat.com.br/) :rocket: :purple_heart:
 
 ### Autor
 
