@@ -22,6 +22,7 @@ export default function Detail() {
   function sendWhatsapp() {
     Linking.openURL(`whatsapp://send?phone=+5587999894811&&text=${message}`);
   }
+
   function sendEmail() {
     MailComposer.composeAsync({
       subject: `Heroi do caso: ${incident.title}`,
@@ -29,6 +30,7 @@ export default function Detail() {
       body: message
     });
   }
+  
   return (
     <View style={styles.container}>
       <View style={styles.header}>

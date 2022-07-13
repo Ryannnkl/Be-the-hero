@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { View, Text, Image, TouchableOpacity, FlatList } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { Feather } from "@expo/vector-icons";
 
 import styles from "./styles";
-import api from "../../services/api";
+
+import api from "../../../services/api";
 
 import logoImg from "../../../assets/assets-app-mobile/logo.png";
 
