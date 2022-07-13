@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { View, TouchableOpacity, Image, Text, Linking } from "react-native";
@@ -15,12 +15,16 @@ export default function Detail() {
   const incident = route.params.incident;
   const message = `Olá ${incident.name} , estou entrando em contato pois gostaria de ajudar no caso R$ ${incident.title} com o valor de ${incident.value}`;
 
+  useEffect(()=> {
+    console.log(incident);
+  },[]);
+
   function navigateBack() {
     navigation.goBack();
   }
 
   function sendWhatsapp() {
-    Linking.openURL(`whatsapp://send?phone=+5587999894811&&text=${message}`);
+    Linking.openURL(`whatsapp://send?phone=+55${incident.whatsapp}&&text=${message}`);
   }
 
   function sendEmail() {
